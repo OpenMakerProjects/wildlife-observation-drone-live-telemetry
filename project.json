@@ -1,0 +1,21 @@
+{
+  "id": 853,
+  "title": "Wildlife Observation Drone Live Telemetry",
+  "repository_slug": "wildlife-observation-drone-live-telemetry",
+  "category": "Drones",
+  "platform": "Arduino Nano 33 BLE",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "Telemetry radio",
+  "components": [
+    "barometer",
+    "payload servo",
+    "telemetry radio"
+  ],
+  "scope": "Build a drones prototype that uses barometer, payload servo, telemetry radio to stream position, battery, and sensor status. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Live Telemetry demonstration with repeatable test steps",
+  "mode": "telemetry",
+  "entrypoint": "firmware/wildlife-observation-drone-live-telemetry/wildlife-observation-drone-live-telemetry.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
